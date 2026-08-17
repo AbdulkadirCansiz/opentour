@@ -16,12 +16,10 @@
       "name": "OpenTour",
       "description": "An open, portable package format for virtual tours: panoramas, scene graph, hotspots, floor plans, multi-language content, accessibility metadata and licensing, with optional 3D assets (point clouds, Gaussian splats) in existing open formats. Planned tooling: reference read/write library and CLI, validator and conformance suite, converters from closed platforms (Matterport, Kuula, Pano2VR), and a panorama processing library (seam correction, nadir patching, projection conversion, privacy blurring). Goal: museums, municipalities, archives and small businesses can own and preserve their spatial records without vendor lock-in.",
       "webpageUrl": {
-        "url": "https://github.com/AbdulkadirCansiz/opentour",
-        "wellKnown": "https://github.com/AbdulkadirCansiz/opentour/blob/main/.well-known/funding-manifest-urls"
+        "url": "https://fluxverys.com/opentour"
       },
       "repositoryUrl": {
-        "url": "https://github.com/AbdulkadirCansiz/opentour",
-        "wellKnown": "https://github.com/AbdulkadirCansiz/opentour/blob/main/.well-known/funding-manifest-urls"
+        "url": "https://fluxverys.com/opentour"
       },
       "licenses": [
         "spdx:Apache-2.0"
