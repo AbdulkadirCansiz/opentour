@@ -1,0 +1,100 @@
+{
+    "version": "v1.0.0",
+    "entity": {
+        "type": "organisation",
+        "role": "owner",
+        "name": "Fluxverys Yazilim Teknolojileri Ticaret Ltd. Sti.",
+        "email": "info@fluxverys.com",
+        "description": "Software company in Ankara, Turkiye, building virtual tour and 3D reconstruction software. We develop Tourision, a production SaaS that turns consumer 360-degree camera footage into virtual tours and Gaussian-splat 3D models, and we started OpenTour to give this entire category of data an open, portable, vendor-neutral format.",
+        "webpageUrl": {
+            "url": "https://fluxverys.com",
+            "wellKnown": "https://fluxverys.com/.well-known/funding-manifest-urls"
+        }
+    },
+    "projects": [
+        {
+            "guid": "opentour",
+            "name": "OpenTour",
+            "description": "An open, portable package format for virtual tours: panoramas, scene graph, hotspots, floor plans, multi-language content, accessibility metadata and licensing, with optional 3D assets (point clouds, Gaussian splats) in existing open formats. Planned tooling: reference read/write library and CLI, validator and conformance suite, converters from closed platforms (Matterport, Kuula, Pano2VR), and a panorama processing library (seam correction, nadir patching, projection conversion, privacy blurring). Goal: museums, municipalities, archives and small businesses can own and preserve their spatial records without vendor lock-in.",
+            "webpageUrl": {
+                "url": "https://github.com/AbdulkadirCansiz/opentour"
+            },
+            "repositoryUrl": {
+                "url": "https://github.com/AbdulkadirCansiz/opentour"
+            },
+            "licenses": [
+                "spdx:Apache-2.0"
+            ],
+            "tags": [
+                "virtual-tours",
+                "360-photography",
+                "panorama",
+                "3d-reconstruction",
+                "gaussian-splatting",
+                "file-format",
+                "cultural-heritage",
+                "accessibility",
+                "computer-vision",
+                "digital-preservation"
+            ]
+        }
+    ],
+    "funding": {
+        "channels": [
+            {
+                "guid": "bank-transfer",
+                "type": "bank",
+                "address": "",
+                "description": "International wire transfer (SWIFT) to our company account in Turkiye. Details shared on request via info@fluxverys.com."
+            }
+        ],
+        "plans": [
+            {
+                "guid": "opentour-v1",
+                "status": "active",
+                "name": "OpenTour specification v1.0 and reference tooling",
+                "description": "Funds the specification, reference read/write library and CLI, validator and conformance test suite, and converters from three closed platforms. Estimated at 150 person-days of engineering work.",
+                "amount": 45000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": [
+                    "bank-transfer"
+                ]
+            },
+            {
+                "guid": "panorama-toolkit",
+                "status": "active",
+                "name": "Open panorama processing toolkit",
+                "description": "Funds the open-source panorama processing library: seam correction with measurable quality metrics, tripod/nadir patching, horizon levelling, projection conversion, and projection-aware face and licence-plate blurring for privacy.",
+                "amount": 25000,
+                "currency": "USD",
+                "frequency": "one-time",
+                "channels": [
+                    "bank-transfer"
+                ]
+            },
+            {
+                "guid": "sustaining",
+                "status": "active",
+                "name": "Sustaining development",
+                "description": "Ongoing maintenance of the specification, tooling and test data set.",
+                "amount": 2000,
+                "currency": "USD",
+                "frequency": "monthly",
+                "channels": [
+                    "bank-transfer"
+                ]
+            }
+        ],
+        "history": [
+            {
+                "year": 2026,
+                "income": 0,
+                "expenses": 0,
+                "taxes": 0,
+                "currency": "USD",
+                "description": "Project started in August 2026; no funding received yet. Development is currently financed by Fluxverys out of its own revenue."
+            }
+        ]
+    }
+}
